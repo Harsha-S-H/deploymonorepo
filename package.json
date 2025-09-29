@@ -1,5 +1,6 @@
 {
   "name": "bms",
+ 
   "private": true,
   "scripts": {
     "build": "turbo run build",

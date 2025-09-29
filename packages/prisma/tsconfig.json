@@ -1,3 +1,9 @@
 {
-  "extends": "@repo/typescript-config/base.json"
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",         // or ESNext if you want ESM
+    "esModuleInterop": true
+  },
+  "include": ["src"]
 }
